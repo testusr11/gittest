@@ -15,12 +15,17 @@ namespace gittest
         {
             var host = new WebHostBuilder()
                 .UseKestrel()
+                
+                //vxcvxcv
+                //know anything at all about something in an outer circle. In particular, the name of 
+                //vxc
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
                 .Build();
-
+///
+            zxvxvxcv
             host.Run();
         }
     }
