@@ -21,9 +21,12 @@ namespace gittest
                 //vxc
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
+                //1213
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
                 .Build();
+fasdfsdfa//
+
 ///
             zxvxvxcv
             host.Run();
