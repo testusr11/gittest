@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 
 namespace gittest
-{
+{//Task 1
     public class Program
     {
         public static void  
@@ -22,6 +22,7 @@ namespace gittest
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
+                //22
                 .UseApplicationInsights()
                 .Build();
 ///
